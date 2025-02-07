@@ -1,0 +1,72 @@
+body {  
+    font-family: "Tektur", serif;
+    background-color: #f2f2f2;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    height: 100vh;  
+    margin: 0;  
+    
+}  
+
+.container {  
+   
+    padding: 30px;  
+    border-radius: 8px;  
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  
+    width: 340px;  
+    background: linear-gradient(to bottom right,#55694A,#506E5D,#6BA56D  );
+}  
+
+h2 {  
+    text-align: center;  
+    margin-bottom: 20px;  
+}  
+
+.input-group {  
+    margin-bottom: 15px;  
+}  
+
+label {  
+    display: block;  
+    margin-bottom: 5px;  
+}  
+
+input {  
+    width: 100%;  
+    padding: 10px;  
+    border: 1px solid #ccc;  
+    border-radius: 4px;  
+}  
+
+input:focus {  
+    border-color: #4CAF50;  
+    outline: none;  
+}  
+
+.btn {  
+    background-color: #4CAF50;  
+    color: white;  
+    padding: 10px;  
+    width: 100%;  
+    border: none;  
+    border-radius: 4px;  
+    cursor: pointer;
+    timeline-scope: 1s;  
+}  
+
+.btn:hover {  
+    background-color: #73a476;
+    color: #000;
+      
+}  
+
+.forgot-password {  
+    text-align: center;  
+    margin-top: 10px;  
+}  
+
+.forgot-password a {  
+    color: #4CAF50;  
+    text-decoration: none;  
+}

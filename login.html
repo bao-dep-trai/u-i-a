@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ĐĂNG NHẬP</title>
+    <link rel="stylesheet" href="css/resert.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="index.css">
+    <style>
+       body .bg{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 1000px;
+    height: 100%;
+   
+    -opacity: 0.5;   /* Làm mờ video */
+    z-index: -1;
+    font-family: Smooch sans;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-size: cover;
+      right: -10;
+      bottom: -10;
+      min-width: 100%;
+      padding: -200px;
+      object-fit: cover;
+      filter: brightness(0.5);
+      backdrop-filter: blur(5000px);
+
+
+       }
+       .bg{
+        backdrop-filter: blur(500px);
+       }
+   
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <video  autoplay muted loop  ; class="bg"   src="Gradient Loop Background.mp4" type=" video/mp4">
+        </video>
+  
+    <div class="container">  
+        <h2>Login</h2>
+          <h5 style="text-align: center; height: 250;  ">*Đăng nhập chức vụ admin </h5>
+        <form>  
+           
+            <div class="input-group">  
+                <label for="email">Email *</label>  
+                <input type="email" id="email" placeholder="email của bạn" required>  
+            </div>  
+         
+            <div class="input-group">  
+                <label for="password">Password *</label>  
+                <input type="password" id="password" required placeholder="cái mk còn ko nhớ thì chụi!">  
+                
+            </div>  
+           
+            <button type="submit" class="btn">LOGIN</button>  
+            <p class="forgot-password"><a href="#">Forgot your password?</a></p> 
+            <h3 style="text-align: center;"> or</h3>
+            <p class="forgot-password"><a href="#">You don't have an account?</a></p> 
+            
+        </form>  
+    
+</div>
+</body>
+</html>
